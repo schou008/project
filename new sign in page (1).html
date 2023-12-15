@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <!-- Link to the stylesheet -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- Link to custom javascript file -->
+    <script src="custom.js"></script>
+  </head>
+  <body onload="animateText()">
+    <header>
+        <nav id="navbar">
+            <ul>
+              <li><a href="InteractiveHomePage.html">Home</a></li>  <!-- remove extra '>' from closing li tag -->
+              <li><a href="new sign in page (1).html" id="sign up">sign up</a></li>
+              <li><a href="recipies.html">Recipies</a></li>
+              <li><a href="contact.html">Contact us</a></li>
+            </ul>  
+        </nav>
+    </header>
+      <h1 id="animatedText" class="fancy">Get in touch</h1>
+     <div id="contact-section">
+    
+        <div style="width: 500px; height: 400px; ">
+            <p>Are you looking to join our team, or do you just want to chat? You can reach us by email at </p>
+            <!-- Contact form -->
+            <form style="display: flex; flex-direction: column;">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name">
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <input style="width:100%" type="submit" value="Send">
+            </form>
+        </div>
+         </div>
+</html>
